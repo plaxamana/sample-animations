@@ -166,33 +166,3 @@ li img {
 .cta:hover {
     background: #149a60;
 }
-
-@keyframes easeFromLeft{
-    0%{
-        transform: translateX(50%);
-        opacity: 0.5;
-        }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-        }
-}
-
-@keyframes easeFromRight{
-    0%{
-        transform: translateX(-50%);
-        opacity: 0.5;
-        }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-        }
-}
-
-.left {
-    animation: easeFromRight 1s 1 0s linear;
-}
-
-.right {
-    animation: easeFromLeft 1s 1 0s linear;
-}
